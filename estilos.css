@@ -1,0 +1,75 @@
+
+#contenedor {
+  background-image: url("pinter.jpg");
+  background-color: transparent;
+  width: 100%;
+}
+
+#indice {
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+  font-size: medium;
+  background-color: #b4dbe5; 
+  border:solid;
+  border-color: black;
+  margin-left: 10%;
+  width: 80%;
+}
+
+#Iconos {
+  margin-left: 10%;
+  background-color: #b4dbe5;
+  width: 80%;
+}
+
+#Nombre {
+  text-align: center;
+  font-family: 'Babylonica', cursive;
+  margin-bottom: 0%;
+  font-size: 300%;
+  color: black;
+}
+
+#Foto {
+  margin-bottom: 5%; margin-right: 15%;
+  float: right;
+  width: 18%;
+}
+
+#InfoIconos {
+  background-color: transparent;
+  margin-left: 10%;
+  float: initial;
+  width: 80%;
+}
+
+.fa-graduation-cap {
+  font-size: 500%;
+  color: rgb(4, 63, 4);
+}
+.fa-person-swimming {
+  font-size: 500%;
+  color: rgb(3, 3, 63);
+}
+.fa-address-card {
+  font-size: 500%;
+  color: rgb(112, 7, 7);
+}
+
+P {
+  text-align: center;
+      font-size: 150%;
+      color: rgb(10 10 10);
+}
+
+#info {
+  text-align: center;
+  background-image: url("pngtree-shampoo-resume-picture-image_1628586.jpg");
+  margin-top: 25%;
+  font-size: 150%;
+  margin-left: 20%;margin-right: 20%;
+}
+  
+#pie {
+  text-align: center;
+    clear: both; 
+}
