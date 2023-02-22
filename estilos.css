@@ -1,18 +1,17 @@
+h1{
+  font-size: 10px
+}
+
 
 #contenedor {
-  background-image: url("pinter.jpg");
+  background-image: url("Imagenes/pinter.jpg");
   background-color: transparent;
   width: 100%;
 }
 
 #indice {
-  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
-  font-size: medium;
-  background-color: #b4dbe5; 
-  border:solid;
-  border-color: black;
-  margin-left: 10%;
-  width: 80%;
+  margin-left: 10% 
+  
 }
 
 #Iconos {
@@ -21,7 +20,7 @@
   width: 80%;
 }
 
-#Nombre {
+h1 {
   text-align: center;
   font-family: 'Babylonica', cursive;
   margin-bottom: 0%;
@@ -36,10 +35,11 @@
 }
 
 #InfoIconos {
+  font-family: 'Mynerve', cursive;
   background-color: transparent;
   margin-left: 10%;
   float: initial;
-  width: 80%;
+  width: 200%;
 }
 
 .fa-graduation-cap {
@@ -63,7 +63,7 @@ P {
 
 #info {
   text-align: center;
-  background-image: url("pngtree-shampoo-resume-picture-image_1628586.jpg");
+  background-image: url("Imagenes/57.jpg");
   margin-top: 25%;
   font-size: 150%;
   margin-left: 20%;margin-right: 20%;
@@ -72,4 +72,16 @@ P {
 #pie {
   text-align: center;
     clear: both; 
+}
+
+.ir-arriba {
+	display:none;
+	padding:20px;
+	background:transparent;
+	font-size:200%;
+	color:rgb(3, 3, 63);
+	cursor:pointer;
+	position: fixed;
+	bottom:10%;
+	left:15%;
 }
