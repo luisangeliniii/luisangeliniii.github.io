@@ -11,20 +11,25 @@ body {
 }
 
 span {
-text-decoration: none;
 color: white;
 text-shadow: 2px 2px 2px black;
 }
 
 #Iconos {
-  margin-left: 10%;
-  width: 80%;
+  width: 100%;
+}
+
+button{
+  color: white;
+  text-shadow: 2px 2px 1px black;
+  background-color: transparent;
+	width: 110px
 }
 
 #Nombre {
   color: white;
-  font-size: 500%;
-  font-weight: 600;
+  font-size: 700%;
+  font-weight: 6%;
   text-shadow: 4px 4px 1px black;
   text-align: center;
   font-family: 'Babylonica', cursive;
@@ -41,16 +46,15 @@ text-shadow: 2px 2px 2px black;
   font-size: 200%; color: white;
   text-shadow: 3px 1px 1px black;
   font-family: 'Mynerve', cursive;
-  background-color: transparent;
-  margin-left: 15%;
-  margin-right: %;
+  text-align: left;
+  margin-left: 20%;
   float: initial;
-  width: 70%;
+  width: 65%;
 }
 
 .fa-graduation-cap {
   font-size: 500%;
-  color: rgb(4, 63, 4);
+  color: rgb(3, 3, 63);
 }
 .fa-person-swimming {
   font-size: 500%;
@@ -58,7 +62,7 @@ text-shadow: 2px 2px 2px black;
 }
 .fa-address-card {
   font-size: 500%;
-  color: rgb(112, 7, 7);
+  color: rgb(3, 3, 63);
 }
 
 .fa-clapperboard {
@@ -70,16 +74,16 @@ text-shadow: 2px 2px 2px black;
 
 #info {
   text-align: center;
-  background-image: url("Imagenes/57.jpg");
   margin-top: 25%;
   font-size: 150%;
   margin-left: 20%;margin-right: 20%;
-  text-align: center;
   color: white;
   text-shadow: 2px 2px 2px black;
 }
   
 #pie {
+  padding-top: 60px;
+  color: white;
   text-align: center;
     clear: both; 
 }

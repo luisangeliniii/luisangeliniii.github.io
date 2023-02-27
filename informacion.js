@@ -8,7 +8,12 @@ function Experiencia(){
         function filmografia(){
             document.getElementById("InfoExtra").innerHTML=("Stewart terminó recientemente una gira por Australia y Estados Unidos estrenando su nueva película Fire creada y dirigida por el cineasta Scott Carter. Aparece en la película Blue Crush del 2002. Aparece en la película de Zalman King de 1998 In God's Hands")
         }
-    
+
+        function DatosPersonales(){
+            document.getElementById("InfoExtra").innerHTML=("Nombre: Mike Stewart Edad: 58 Fecha de nacimiento: 17 de Mayo de 1963 Lugar de nacimiento: Hawaii, Estados Unidos Signo: Tauro Altura: 183cm Estado civil: Casado con Lisa Miller en 1996")
+        }
+
+        
         $(document).ready(function(){
     
             $('.ir-arriba').click(function(){
